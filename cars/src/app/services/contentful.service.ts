@@ -28,7 +28,7 @@ export class ContentfulService {
   }
 
   getContent_GraphQl() {
-    fetch(
+    return fetch(
       `https://graphql.contentful.com/content/v1/spaces/${spaceId}/environments/master`,
       {
         method: 'POST',
@@ -45,7 +45,7 @@ export class ContentfulService {
     .then(response => {
       console.log('GraphQl load');
       console.log(response);
-
+      return response;
     })
     .catch(error => {
       console.log(error);

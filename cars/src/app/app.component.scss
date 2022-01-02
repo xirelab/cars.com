@@ -56,6 +56,16 @@
     opacity: 0.8;
   }
 
+  .heading {
+    display: flex;
+    margin: 82px auto 32px;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://images.ctfassets.net/b9hqxu0wn5ql/aJCNZ28Yv6sxcWH5H7q6n/9e48f203089859c38d1396f32143e6ed/Luxury_cars_1.width-800.jpg");
+  }
+
   .content {
     display: flex;
     margin: 82px auto 32px;
