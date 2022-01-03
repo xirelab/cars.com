@@ -4,8 +4,8 @@ import { createClient } from 'contentful';
 import { from } from 'rxjs';
 import { map } from 'rxjs/operators';
 
-const accessToken = "yqCEpECLSQxu-IjqdDbqa4Ha4jp-W1N1bDn5c2OcOvY";
-const spaceId = "b9hqxu0wn5ql";
+const accessToken = environment.contentful.accessToken;
+const spaceId = environment.contentful.space;
 
 @Injectable({
   providedIn: 'root'

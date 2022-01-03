@@ -6,7 +6,7 @@ export const environment = {
   production: false,
   contentful: {
     space: 'b9hqxu0wn5ql',
-    accessToken: 'yca0HsObGURmbhhqBwx-E5tb9IB-WKSIQERcM_M0NhA '
+    accessToken: 'yca0HsObGURmbhhqBwx-E5tb9IB-WKSIQERcM_M0NhA'
   }
 };
 
